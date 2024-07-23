@@ -1,0 +1,77 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.task-item.completed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  background-color: #28a745;
+}
+
+.task-actions button:hover {
+  background-color: #218838;
+}
+
+.task-actions button:nth-child(2) {
+  background-color: #ffc107;
+}
+
+.task-actions button:nth-child(2):hover {
+  background-color: #e0a800;
+}
+
+.task-actions button:nth-child(3) {
+  background-color: #dc3545;
+}
+
+.task-actions button:nth-child(3):hover {
+  background-color: #c82333;
+}
